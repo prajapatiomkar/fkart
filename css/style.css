@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@650&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+.flex-all-center a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+    
+}
+
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    padding: 0 25px;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+.search{
+    display: flex;
+    align-items: center; 
+    /* border: none;
+    padding-left: 190px; */
+}
+.search input{
+    width: 30vw;
+    height: 29px;
+    border-radius: 20px;
+    padding: 0 29px;
+    margin: 12px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.slider{
+    /* margin: auto; */
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+    
+}
+/* .slider img{
+    border: 2px solid #2874f0;
+    border-radius: 12px;
+
+} */
+.card{
+    /* background-color: aqua; */
+    max-width: 91vw;
+    margin: 72px auto;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.card h2{
+    font-family: 'Merriweather', serif;
+font-family: 'Nunito', sans-serif;
+}
+
+.lines p{
+    font-family: 'Merriweather', serif;
+font-family: 'Nunito', sans-serif;
+
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 25px;
+    /* position: relative;
+    top: 32px; */
+    
+    
+}
+
+.cards{
+    display: flex;
+    overflow: hidden;
+    /* align-items: center;
+    justify-content: center;
+    background-color: #f1f3f6;
+    padding: 32px 0;
+    border: 2px solid #cddbf1; */
+}
+.cards1{
+    display: flex;
+}
+/* .cards1 img{
+
+} */
+
+.card h2{
+    /* background-color: #f1f3f6; */
+    color: #212121;
+    /* border: 2px solid #cddbf1; */
+    /* border-radius: 7px; */
+    padding: 4px 22px;
+}
+#scroll{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+
